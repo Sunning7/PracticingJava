@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+</head>
+
+<body>
+    <h2>Calculator</h2>
+    <button onclick="  
+ calculations +=1 ;
+  console.log(calculations); 
+    ">1</button>
+    <button onclick="  
+    calculations +=2 ;
+     console.log(calculations); 
+       ">2</button>
+    <button onclick="  
+    calculations +=3 ;
+     console.log(calculations); 
+       ">3</button>
+    <button onclick="
+    calculations += ' + ';
+     console.log(calculations);
+    ">+</button>
+    <button onclick="
+     eval(calculations);
+     calculations = eval(calculations);
+     console.log(calculations);
+    ">=</button>
+    <button onclick="
+     calculations='';
+     console.log('Cleared.')
+    ">Reset</button>
+    <script>
+        let calculations = '';
+    </script>
+</body>
+
+</html>
